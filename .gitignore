@@ -1,0 +1,8 @@
+# Ignore everything by default; only translated subtitle files are tracked
+*
+
+!.gitignore
+!Translater/
+!Translater/*/
+# Translated caption files, e.g. <videoId>.th.json
+!Translater/*/*.??.json
